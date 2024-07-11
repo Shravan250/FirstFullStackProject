@@ -1,9 +1,10 @@
-//hello`
+import Nav from "./Nav";
 
-
-
-//local machine 
-
-//staging area -> add .
-
-//repo -> push -> main 
+export default function layout({}) {
+  return (
+    <div>
+      <Nav />
+      <main>{children}</main>
+    </div>
+  );
+}
