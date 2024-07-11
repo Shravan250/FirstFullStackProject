@@ -1,6 +1,6 @@
 import Nav from "./nav";
 
-export default function layout({}) {
+export default function layout({children}) {
   return (
     <div>
       <Nav />
